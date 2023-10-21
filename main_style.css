@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+  cursor: grab;
+}
+::selection {
+    color: white;
+    background-color: darkmagenta;
+}
+@keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+}
+.fadeD {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+a.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: darkmagenta;
+    transition: 0.5s;
+}
+a.link:hover {
+    color: black;
+}
+.title-index {
+    font-family: 'Pacifico', cursive;
+    font-size: 5.5rem;
+    color: white;
+}
+.heading {
+    position: sticky;
+    background-color: black;
+    padding: 0.8rem 0 0.8rem 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.img-ap {
+    height: 13rem;
+    width: 13rem;
+    opacity: 0.5;
+}
+.button {
+    font-family: 'Mulish', sans-serif;
+    background-color: darkmagenta;
+    color: white;
+    padding: 0.4rem;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 200;
+}
+.regist {
+    margin: 0.5rem 0 0.5rem;
+    width: 100%;
+    padding-bottom: 0.2rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1px darkmagenta;
+    outline: none;
+    transition: 0.4s;
+}
+input[type="text"].regist:hover {
+    border-bottom: solid 2px white;
+}
+input[type="password"].regist:hover {
+    border-bottom: solid 2px white;
+}
+input[type="email"].regist:hover {
+    border-bottom: solid 2px white;
+}
+input[type="tel"].regist:hover {
+    border-bottom: solid 2px white;
+}

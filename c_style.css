@@ -1,0 +1,42 @@
+@keyframes slide-up {
+  from{opacity: 0; top: 100%;}
+  to{opacity: 1; top: 0;}
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.slide-up {
+  position: absolute;
+  animation-name: slide-up;
+  animation-duration: 1s;
+}
+.cat {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  transition: 0.4s;
+}
+.cat:hover {
+  color: black;
+  text-shadow: 0px 0px 3px dimgray;
+}
+a.cat-it {
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+a.cat-it:hover {
+  color: white;
+  background-color: darkmagenta;
+}
+.img-cat {
+  height: 13rem;
+  width: 13rem;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.img-cat:hover {
+  opacity: 0.8;
+}
